@@ -1,0 +1,36 @@
+@width: 10px;
+@height: @width + 10px;
+
+#header {
+    width: @width;
+    height: @height;
+}
+
+.bordered {
+    border-top: dotted 1px black;
+    border-bottom: solid 2px black;
+}
+
+#menu a {
+    color: #111;
+    .bordered();
+}
+
+.post a {
+    color: red;
+    .bordered();
+}
+
+.clearfix {
+    display: block;
+    zoom: 1;
+
+    &:after {
+        content: " ";
+        display: block;
+        font-size: 0;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+}
