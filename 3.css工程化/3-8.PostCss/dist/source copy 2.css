@@ -1,0 +1,12 @@
+.a {
+    color: red
+}
+.a .b {
+        color: green;
+    }
+.a > .b {
+        color: blue;
+    }
+.a:hover {
+        color: #000;
+    }

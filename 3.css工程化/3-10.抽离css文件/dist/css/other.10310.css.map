@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///src/assets/b.css","webpack:///src/assets/a.css"],"names":[],"mappings":"AAAA;IACI,YAAY;AAChB,C;ACAA;IACI,UAAU;AACd,C","file":"css/other.10310.css","sourcesContent":[".b{\r\n    color: green;\r\n}","@import \"./b.css\";\r\n\r\n.a{\r\n    color: red;\r\n}"],"sourceRoot":""}

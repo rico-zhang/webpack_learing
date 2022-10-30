@@ -1,0 +1,13 @@
+
+body {
+    /* 使用颜色#aabbcc，不做任何处理，等同于直接书写 #aabbcc */
+    color: rgb(170, 187, 204);
+    /* 将颜色#aabbcc透明度设置为90% */
+    color: rgba(170, 187, 204, 0.9);
+    /* 将颜色var(--mainColor)的红色部分设置为90% */
+    color: rgb(230, 187, 204);
+    /* 将颜色var(--mainColor)调亮50%（更加趋近于白色），类似于less中的lighten函数 */
+    color: rgb(213, 221, 230);
+    /* 将颜色var(--mainColor)调暗50%（更加趋近于黑色），类似于less中的darken函数 */
+    color: rgb(85, 94, 102);
+}

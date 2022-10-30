@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///src/assets/index.css"],"names":[],"mappings":"AAAA;IACI,YAAY;IACZ,aAAa;IACb,gCAAkC;IAClC,0BAA0B;AAC9B,C","file":"css/main.df19c.css","sourcesContent":[".main{\r\n    width: 500px;\r\n    height: 300px;\r\n    background: url(\"./img/china.jpg\");\r\n    background-size: 100% 100%;\r\n}"],"sourceRoot":""}
